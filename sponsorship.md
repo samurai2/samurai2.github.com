@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sponsorship
-group: navigation
+#group: navigation
 ---
 
 ### Basic Package - $500
