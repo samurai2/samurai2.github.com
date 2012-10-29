@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: "Samurai 2: Slashing at the Clouds"
 #group: navigation
 ---
 

@@ -1,0 +1,13 @@
+---
+layout: page
+title: Events
+header: Event Posts
+group: navigation
+---
+{% include JB/setup %}
+
+<ul>
+{% for page in site.categories['events'] %} 
+<li><h3><a href="{{page['url']}}">{{ page['title'] }}</a> <small>{{page['date']}}</small></h3></li>
+{% endfor %}
+</ul>

@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://samurai2.openctf.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -78,7 +78,8 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    #provider : disqus
+    provider : False
     disqus :
       short_name : jekyllbootstrap
     livefyre :

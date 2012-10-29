@@ -6,8 +6,7 @@ group: navigation
 
 ## Who is the OpenCTF team?
 
-The OpenCTF team is a collection of infosec professionals who love to play and run CTF’s.  Team members come from a number of backgrounds that include both the banking industry   
-and the DoD.
+The OpenCTF team is a collection of infosec professionals who love to play and run CTF’s.  Team members come from a number of backgrounds that include both the banking industry and the DoD.
 
 ## What is the Samurai 2 CTF?
 
