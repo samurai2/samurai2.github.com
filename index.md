@@ -4,4 +4,4 @@ title: Home
 #group: navigation
 ---
 
-<center><img src="img/samurai.gif"></center>
+<center><img src="/assets/img/seven.jpg"></center>
