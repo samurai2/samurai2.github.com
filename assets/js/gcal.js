@@ -18,6 +18,11 @@ function cal(data)
 { 
     var upcoming = [];
     var past = [];
+    var uphead = $("<h2>Upcoming</h2>");
+    var updiv  = $("<div id='gcal-upcoming'></div>");
+    var pahead = $("<h2>Past</h2>");
+    var padiv = $("<div id='gcal-past'></div>");
+
     $.each(data.feed.entry, function(i, entry){
         e = {};
         e['title'] = entry.title.$t;
@@ -33,9 +38,14 @@ function cal(data)
     });
     if(upcoming.length > 0){
         upcoming.reverse();
-        addEvents(upcoming, $('#gcal-upcoming'));
-    } else { $('#gcal-upcoming').text('None');}
+        addEvents(upcoming, updiv);
+    } else { updiv.text('None');}
     if (past.length > 0){
-        addEvents(past, $('#gcal-past'));
-    } else { $('#gcal-past').html('<h3><small>None</small></h3>'); }
+        addEvents(past, padiv);
+    } else { padiv.html('<h3><small>None</small></h3>');}
+    $('#events-container').empty();
+    uphead.append(updiv);
+    pahead.append(padiv);
+    $('#events-container').append(uphead);
+    $('#events-container').append(pahead);
 }
