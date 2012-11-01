@@ -31,7 +31,8 @@ We would love to bring this traveling CTF to your meeting.  This CTF was made to
 ## Where is the Samurai 2 CTF?
 
 The Samurai 2 CTF was built as a traveling CTF to local and national security conventions to showcase the OpenCTF teams talents on building and designing CTFs.  If your interested on having Samurai 2 CTF at your event please contact the OpenCTF team at, pete@openctf.com.
-Why is the OpenCTF team doing this?
+
+##Why is the OpenCTF team doing this?
 
 
 The OpenCTF team learns valuable hacking skills by building CTF’s and practicing cyberdouchery along with network layer shenanigans.
