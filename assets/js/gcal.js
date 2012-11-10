@@ -39,7 +39,7 @@ function cal(data)
     if(upcoming.length > 0){
         upcoming.reverse();
         addEvents(upcoming, updiv);
-    } else { updiv.text('None');}
+    } else { updiv.html('<h3><small>None</small></h3>');}
     if (past.length > 0){
         addEvents(past, padiv);
     } else { padiv.html('<h3><small>None</small></h3>');}
